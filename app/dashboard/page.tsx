@@ -232,7 +232,7 @@ const Dashboard = () => {
         </div>
       </div>
       <ModalComp
-        dialogPanelClass="right-2 md:!left-auto md:right-12 absolute p-1 top-[28rem] sm:top-44 max-w-[12rem] md:max-w-44"
+        dialogPanelClass="right-2 left-2 md:!left-auto md:right-12 absolute p-1 top-[28rem] sm:top-44 max-w-[12rem] md:max-w-44"
         dialogPanelContainerClass="justify-start"
         isOpen={isProfileOpen}
         openModal={() => setIsProfileOpen(true)}
