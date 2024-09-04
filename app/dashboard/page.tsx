@@ -232,7 +232,7 @@ const Dashboard = () => {
         </div>
       </div>
       <ModalComp
-        dialogPanelClass="right-2 md:right-12 absolute p-1 top-[14rem] sm:top-44 max-w-[12rem] md:max-w-44"
+        dialogPanelClass="right-2 md:!left-auto md:right-12 absolute p-1 top-[28rem] sm:top-44 max-w-[12rem] md:max-w-44"
         dialogPanelContainerClass="justify-start"
         isOpen={isProfileOpen}
         openModal={() => setIsProfileOpen(true)}
@@ -242,7 +242,7 @@ const Dashboard = () => {
           {CREATE_NEW.map(({ id, title, icon: Icon }) => (
             <div
               key={id}
-              className="border-b flex py-3 last:border-0 items-center gap-2 cursor-pointer hover:bg-gray-100 duration-300 ease-linear px-1"
+              className="border-b flex py-3 lef last:border-0 items-center gap-2 cursor-pointer hover:bg-gray-100 duration-300 ease-linear px-1"
             >
               <Icon />
               <p className="text-sm">{title}</p>
