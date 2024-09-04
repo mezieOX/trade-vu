@@ -35,7 +35,7 @@ export const NavBar: React.FC = () => {
   return (
     <>
       {/* Navigation Bar */}
-      <div className="py-5 px-4 sm:px-9 border-b border-gray-200 bg-white">
+      <div className="py-5 px-2 sm:px-9 border-b border-gray-200 bg-white">
         <div className="flex justify-between items-center">
           {/* Logo and Title */}
           <Link href="/" className="flex items-center gap-1">

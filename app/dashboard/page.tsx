@@ -26,11 +26,11 @@ const Dashboard = () => {
 
   return (
     <Layout childrenClass="!p-0">
-      <div className="bg-blue-50 p-4 md:p-9 md:hidden flex items-center gap-2">
+      <div className="bg-blue-50 p-2 md:p-9 md:hidden flex items-center gap-2">
         <div className="w-8">
           <Image src={LOCK_IMG} className="w-8" alt="Lock icon" />
         </div>
-        <p className="text-gray-600">
+        <p className="text-gray-600 text-sm">
           Your account isn’t fully activated.{" "}
           <span className="font-medium cursor-pointer text-primary">
             Complete registration
@@ -52,18 +52,18 @@ const Dashboard = () => {
               <DropDownMenu className="w-[6rem]" data={currencyType} />
             </div>
           </div>
-          <div className="hidden md:flex items-center gap-2">
+          <div className="hidden md:flex items-center gap-4">
             <ButtonComp
               onClick={() => {}}
               title="Send money"
               icon={<SendIcon className="fill-current" />}
-              className="text-sm font-medium text-primary bg-primary/20 hover:bg-primary hover:text-white"
+              className="text-sm font-medium text-primary bg-primary/20 hover:bg-primary hover:text-white px-0"
             />
             <ButtonComp
               onClick={() => setIsProfileOpen(true)}
               title="Create new"
               iconClass="mr-0"
-              className="text-sm font-medium !bg-primary hover:!bg-primary/20 hover:text-primary text-white"
+              className="text-sm font-medium !bg-primary hover:!bg-primary/20 hover:text-primary text-white px-0"
               icon={<AddIcon className="fill-current" />}
             />
           </div>
@@ -120,13 +120,13 @@ const Dashboard = () => {
             onClick={() => {}}
             title="Send money"
             icon={<SendIcon className="fill-current" />}
-            className="text-sm font-medium text-primary w-full text-center justify-center bg-primary/20 hover:bg-primary hover:text-white px-0"
+            className="text-sm font-medium text-primary w-full text-center justify-center bg-primary/20 hover:bg-primary hover:text-white !px-0"
           />
           <ButtonComp
             onClick={() => setIsProfileOpen(true)}
             title="Create new"
             iconClass="mr-0"
-            className="text-sm font-medium !bg-primary w-full justify-center hover:!bg-primary/20 hover:text-primary text-white px-0"
+            className="text-sm font-medium !bg-primary w-full justify-center hover:!bg-primary/20 hover:text-primary text-white !px-0"
             icon={<AddIcon className="fill-current" />}
           />
         </div>
