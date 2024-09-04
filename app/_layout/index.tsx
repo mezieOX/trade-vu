@@ -18,7 +18,7 @@ export const Layout: React.FC<LayoutProps> = ({ children, childrenClass }) => {
 
       {/* Main content area */}
       <div
-        className={`p-4 md:p-9 bg-gray_background min-h-screen ${childrenClass}`}
+        className={`p-2 md:p-9 bg-gray_background min-h-screen ${childrenClass}`}
       >
         {children}
       </div>

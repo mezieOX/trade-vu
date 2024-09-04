@@ -25,7 +25,7 @@ const Dashboard = () => {
   const [isProfileOpen, setIsProfileOpen] = useState(false);
 
   return (
-    <Layout childrenClass="p-0">
+    <Layout childrenClass="!p-0">
       <div className="bg-blue-50 p-4 md:p-9 md:hidden flex items-center gap-2">
         <div className="w-8">
           <Image src={LOCK_IMG} className="w-8" alt="Lock icon" />
@@ -38,7 +38,7 @@ const Dashboard = () => {
           to access all benefits.
         </p>
       </div>
-      <div className="min-h-screen px-4 pt-9 lg:pt-0 md:px-9">
+      <div className="min-h-screen px-2 pt-9 md:pt-0 md:px-9">
         <div className="md:flex justify-between items-end">
           <div>
             <div className="flex items-center gap-2 pb-1">
