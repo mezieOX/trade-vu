@@ -131,7 +131,7 @@ const Dashboard = () => {
           />
         </div>
         <div className="grid lg:grid-cols-2 gap-8">
-          <div className="w-full bg-white rounded-lg p-3 sm:p-6 shadow">
+          <div className="w-full bg-white rounded-lg p-6 shadow">
             <div className="flex justify-between items-center">
               <h1 className="text-sm font-medium text-gray-600 w-fit">
                 Recent transactions
@@ -186,7 +186,7 @@ const Dashboard = () => {
               View full transaction history
             </div>
           </div>
-          <div className="w-full bg-white rounded-lg p-3 sm:p-6 shadow h-max pb-8">
+          <div className="w-full bg-white rounded-lg p-6 shadow h-max pb-8">
             <div className="flex justify-between items-center">
               <div className="flex items-center gap-1">
                 <h1 className="text-xs font-bold text-gray-600">
