@@ -38,7 +38,7 @@ const Dashboard = () => {
           to access all benefits.
         </p>
       </div>
-      <div className="min-h-screen px-2 pt-9 md:pt-0 md:px-9">
+      <div className="min-h-screen px-2 py-9 md:px-9">
         <div className="md:flex justify-between items-end">
           <div>
             <div className="flex items-center gap-2 pb-1">
@@ -52,7 +52,7 @@ const Dashboard = () => {
               <DropDownMenu className="w-[6rem]" data={currencyType} />
             </div>
           </div>
-          <div className="hidden md:flex items-center gap-4">
+          <div className="hidden md:flex items-center gap-2">
             <ButtonComp
               onClick={() => {}}
               title="Send money"
@@ -133,7 +133,7 @@ const Dashboard = () => {
         <div className="grid lg:grid-cols-2 gap-8">
           <div className="w-full bg-white rounded-lg p-6 shadow">
             <div className="flex justify-between items-center">
-              <h1 className="text-sm font-medium text-gray-600">
+              <h1 className="text-sm font-medium text-gray-600 w-fit">
                 Recent transactions
               </h1>
               <DropDownMenu
@@ -188,11 +188,11 @@ const Dashboard = () => {
           </div>
           <div className="w-full bg-white rounded-lg p-6 shadow h-max pb-8">
             <div className="flex justify-between items-center">
-              <div className="flex items-center gap-2">
+              <div className="flex items-center gap-1">
                 <h1 className="text-sm font-medium text-gray-600">
                   Pending actions
                 </h1>
-                <p className="bg-gray-100 text-black rounded-full min-h-7 flex items-center justify-center min-w-7">
+                <p className="bg-gray-100 text-black rounded-full min-h-6 flex items-center justify-center min-w-6">
                   4
                 </p>
               </div>
