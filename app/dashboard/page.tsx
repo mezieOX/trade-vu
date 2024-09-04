@@ -189,7 +189,7 @@ const Dashboard = () => {
           <div className="w-full bg-white rounded-lg p-6 shadow h-max pb-8">
             <div className="flex justify-between items-center">
               <div className="flex items-center gap-1">
-                <h1 className="text-sm font-medium text-gray-600">
+                <h1 className="text-xs font-bold text-gray-600">
                   Pending actions
                 </h1>
                 <p className="bg-gray-100 text-black rounded-full min-h-6 flex items-center justify-center min-w-6">
@@ -232,7 +232,7 @@ const Dashboard = () => {
         </div>
       </div>
       <ModalComp
-        dialogPanelClass="right-12 absolute p-1 top-44 max-w-44"
+        dialogPanelClass="right-2 md:right-12 absolute p-1 top-[14rem] sm:top-44 max-w-[12rem] md:max-w-44"
         dialogPanelContainerClass="justify-start"
         isOpen={isProfileOpen}
         openModal={() => setIsProfileOpen(true)}
