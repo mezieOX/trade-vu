@@ -145,15 +145,14 @@ export const NavBar: React.FC = () => {
                   setAddBusinessModal((prev) => !prev);
                   setIsProfileOpen(true);
                 }}
-                className="flex justify-between items-center"
+                className="flex justify-between items-center text-start w-full"
               >
                 <div>
                   Switch account
-                  <div>
-                    <span className="text-xs text-gray-500">
-                      Access your other businesses
-                    </span>
-                  </div>
+                  <div></div>
+                  <span className="text-xs text-gray-500">
+                    Access your other businesses
+                  </span>
                 </div>
                 <ArrowFillDownIcon
                   className={`${
