@@ -129,7 +129,7 @@ export const NavBar: React.FC = () => {
 
         {/* User Profile Modal */}
         <ModalComp
-          dialogPanelClass="right-20 absolute justify-end top-14 w-64"
+          dialogPanelClass="right-20 absolute justify-end top-14 max-w-64"
           dialogPanelContainerClass="justify-start"
           isOpen={isProfileOpen}
           openModal={() => setIsProfileOpen(true)}
@@ -178,7 +178,7 @@ export const NavBar: React.FC = () => {
 
         {/* Add Business Modal */}
         <ModalComp
-          dialogPanelClass="right-24 absolute justify-end top-28 w-56 border-0 shadow-none"
+          dialogPanelClass="right-24 absolute justify-end top-28 max-w-56 border-0 shadow-none"
           dialogPanelContainerClass="justify-start"
           isOpen={addBusinessModal}
           openModal={() => setAddBusinessModal(true)}
@@ -216,8 +216,9 @@ export const NavBar: React.FC = () => {
                 <ButtonComp
                   title="Add business"
                   icon={<AddIcon />}
+                  iconClass="!mr-0"
                   onClick={() => setIsShow((prev) => !prev)}
-                  className="bg-transparent w-full border text-sm text-primary hover:bg-primary/20 hover:border-2 duration-300 ease-in-out"
+                  className="bg-transparent w-full border text-sm text-center justify-center text-primary hover:bg-primary/20 hover:border-2 duration-300 ease-in-out"
                 />
               </div>
             </div>
